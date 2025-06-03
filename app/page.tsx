@@ -103,10 +103,12 @@ export default function HomePage() {
                 </div>
 
                 <div className="flex flex-wrap gap-4">
-                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E] border-[#F14E4E]/30">
-                    <Award className="mr-1 h-3 w-3" />
-                    AACYF U25 Leader
-                  </Badge>
+                  <a href="https://lapost.us/?p=72065" target="_blank" rel="noopener noreferrer">
+                    <Badge className="bg-[#F14E4E]/20 text-[#F14E4E] border-[#F14E4E]/30 cursor-pointer hover:bg-[#F14E4E]/30 transition-colors">
+                      <Award className="mr-1 h-3 w-3" />
+                      AACYF U25 Leader
+                    </Badge>
+                  </a>
                   <Badge className="bg-[#006C9A]/20 text-[#006C9A] border-[#006C9A]/30">
                     <Award className="mr-1 h-3 w-3" />
                     APEA Young Leader
@@ -141,10 +143,12 @@ export default function HomePage() {
                     <Briefcase className="h-6 w-6 text-[#006C9A]" />
                   </div>
                   <div>
-                    <CardTitle className="text-white text-2xl">Bay Area Innovest (BAI) 💼</CardTitle>
-                    <CardDescription className="text-gray-400">
-                      Global platform for tech innovation and investment
-                    </CardDescription>
+                    <a href="https://www.bayareainnovest.com/" target="_blank" rel="noopener noreferrer" className="block">
+                      <CardTitle className="text-white text-2xl hover:text-[#006C9A] transition-colors">Bay Area Innovest (BAI) 💼</CardTitle>
+                      <CardDescription className="text-gray-400">
+                        Global platform for tech innovation and investment
+                      </CardDescription>
+                    </a>
                   </div>
                 </div>
               </CardHeader>
@@ -173,10 +177,12 @@ export default function HomePage() {
                     <Globe className="h-6 w-6 text-[#93C9E9]" />
                   </div>
                   <div>
-                    <CardTitle className="text-white text-2xl">Visionlist Commons 🌍</CardTitle>
-                    <CardDescription className="text-gray-400">
-                      501(c)(3) nonprofit supporting Gen Z founders
-                    </CardDescription>
+                    <a href="https://www.visionlistcommons.org/" target="_blank" rel="noopener noreferrer" className="block">
+                      <CardTitle className="text-white text-2xl hover:text-[#93C9E9] transition-colors">Visionlist Commons 🌍</CardTitle>
+                      <CardDescription className="text-gray-400">
+                        501(c)(3) nonprofit supporting Gen Z founders
+                      </CardDescription>
+                    </a>
                   </div>
                 </div>
               </CardHeader>
@@ -239,10 +245,12 @@ export default function HomePage() {
                     <Brain className="h-6 w-6 text-[#F14E4E]" />
                   </div>
                   <div>
-                    <CardTitle className="text-white text-2xl">Resonas.AI 🧠</CardTitle>
-                    <CardDescription className="text-gray-400">
-                      AI-native mentorship and avatar platform
-                    </CardDescription>
+                    <a href="https://www.resonas.com/" target="_blank" rel="noopener noreferrer" className="block">
+                      <CardTitle className="text-white text-2xl hover:text-[#F14E4E] transition-colors">Resonas.AI 🧠</CardTitle>
+                      <CardDescription className="text-gray-400">
+                        AI-native mentorship and avatar platform
+                      </CardDescription>
+                    </a>
                   </div>
                 </div>
               </CardHeader>
@@ -312,29 +320,35 @@ export default function HomePage() {
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <Card className="bg-[#1F1F1F] border-[#006C9A]/30">
                 <CardContent className="p-6">
-                  <div className="flex items-center gap-3 mb-2">
-                    <Mic className="h-5 w-5 text-[#006C9A]" />
-                    <h3 className="text-white font-semibold">ZLead Global Tech Entrepreneurship Conference</h3>
-                  </div>
+                  <a href="http://english.pudong.gov.cn/chinashftz/2024-08/22/c_1019839.htm" target="_blank" rel="noopener noreferrer" className="block">
+                    <div className="flex items-center gap-3 mb-2">
+                      <Mic className="h-5 w-5 text-[#006C9A]" />
+                      <h3 className="text-white font-semibold hover:text-[#006C9A] transition-colors">ZLead Global Tech Entrepreneurship Conference</h3>
+                    </div>
+                  </a>
                 </CardContent>
               </Card>
 
               <Card className="bg-[#1F1F1F] border-[#006C9A]/30">
                 <CardContent className="p-6">
-                  <div className="flex items-center gap-3 mb-2">
-                    <Mic className="h-5 w-5 text-[#006C9A]" />
-                    <h3 className="text-white font-semibold">SoCal Entrepreneurship Annual Summit</h3>
-                  </div>
+                  <a href="https://nyweekly.com/business/visionlist-commons-successfully-hosts-the-socal-entrepreneurship-annual-summit-focusing-on-innovation-and-capital-integration/" target="_blank" rel="noopener noreferrer" className="block">
+                    <div className="flex items-center gap-3 mb-2">
+                      <Mic className="h-5 w-5 text-[#006C9A]" />
+                      <h3 className="text-white font-semibold hover:text-[#006C9A] transition-colors">SoCal Entrepreneurship Annual Summit</h3>
+                    </div>
+                  </a>
                 </CardContent>
               </Card>
 
               <Card className="bg-[#1F1F1F] border-[#F14E4E]/30">
                 <CardContent className="p-6">
-                  <div className="flex items-center gap-3 mb-2">
-                    <Award className="h-5 w-5 text-[#F14E4E]" />
-                    <h3 className="text-white font-semibold">MIT GenAI Pitch Competition</h3>
-                  </div>
-                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">🏆 1st Place</Badge>
+                  <a href="https://news.mit.edu/2023/students-pitch-transformative-ideas-generative-ai-mit-ignite-competition-1121" target="_blank" rel="noopener noreferrer" className="block">
+                    <div className="flex items-center gap-3 mb-2">
+                      <Award className="h-5 w-5 text-[#F14E4E]" />
+                      <h3 className="text-white font-semibold hover:text-[#F14E4E] transition-colors">MIT GenAI Pitch Competition</h3>
+                    </div>
+                    <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">🏆 1st Place</Badge>
+                  </a>
                 </CardContent>
               </Card>
 
