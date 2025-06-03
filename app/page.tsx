@@ -206,7 +206,7 @@ export default function HomePage() {
                     <Zap className="h-6 w-6 text-[#F14E4E]" />
                   </div>
                   <div>
-                    <CardTitle className="text-white text-2xl">AI-Power 🔋</CardTitle>
+                    <CardTitle className="text-white text-2xl">AI-Power Smart Wearables</CardTitle>
                     <CardDescription className="text-gray-400">Next-Gen Wearable Tech for High-Performance Lifestyles</CardDescription>
                   </div>
                 </div>
