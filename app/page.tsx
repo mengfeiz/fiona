@@ -180,7 +180,7 @@ export default function HomePage() {
                     <a href="https://www.visionlistcommons.org/" target="_blank" rel="noopener noreferrer" className="block">
                       <CardTitle className="text-white text-2xl hover:text-[#93C9E9] transition-colors">Visionlist Commons 🌍</CardTitle>
                       <CardDescription className="text-gray-400">
-                        501(c)(3) nonprofit supporting Gen Z founders
+                        501(c)(3) nonprofit bridging global entrepreneurial ecosystems
                       </CardDescription>
                     </a>
                   </div>
@@ -188,8 +188,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-300 mb-4">
-                  A 501(c)(3) nonprofit supporting Gen Z founders through grants, connections, and knowledge sharing.
-                  Backed by 100+ VC communities and university innovation clubs worldwide.
+                Visionlist Commons is a U.S.-based 501(c)(3) nonprofit founded in 2022. We empower cross-cultural innovation through education, mentorship, and incubation programs, connecting ambitious founders across 50+ universities. Guided by passion, open-mindedness, community, and independent thinking, we bridge global entrepreneurial ecosystems to shape the future. 
                 </p>
                 <div className="flex gap-2">
                   <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">
