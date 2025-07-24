@@ -203,39 +203,7 @@ export default function HomePage() {
                 </div>
               </CardContent>
             </Card>
-{/* AI-Power */}
-<Card className="bg-[#1F1F1F] border-[#F14E4E]/30 hover:border-[#F14E4E]/50 transition-colors">
-              <CardHeader>
-                <div className="flex items-center gap-3">
-                  <div className="p-2 bg-[#F14E4E]/20 rounded-lg">
-                    <Zap className="h-6 w-6 text-[#F14E4E]" />
-                  </div>
-                  <div>
-                    <CardTitle className="text-white text-2xl">AI-Power Smart Wearables</CardTitle>
-                    <CardDescription className="text-gray-400">Next-Gen Wearable Tech for High-Performance Lifestyles</CardDescription>
-                  </div>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-300 mb-4">
-                  AI-Power is a next-generation wearable hardware company blending advanced technology with functional fashion. Its products feature aerospace-grade cooling, biometric tracking, and AI integration—designed for creators, workers, and athletes operating in extreme conditions. With innovations like millimeter-wave gesture control, local AI processing, and an independent OS, AI-Power is redefining intelligent wearables.
-                </p>
-                <div className="space-y-2 mb-4">
-                  <h4 className="text-[#F14E4E] font-semibold">Traction:</h4>
-                  <ul className="text-gray-300 space-y-1 text-sm">
-                    <li>• ~$2M raised via global crowdfunding platforms</li>
-                    <li>• 1,000+ units shipped | $60M+ in 2024 intention orders</li>
-                    <li>• 400K+ users | 100+ patents & trademarks | 10 global design awards</li>
-                    <li>• Featured on Amazon, Indiegogo, Green Funding</li>
-                  </ul>
-                </div>
-                <div className="flex gap-2">
-                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">Hardware</Badge>
-                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">AI Integration</Badge>
-                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">Wearables</Badge>
-                </div>
-              </CardContent>
-            </Card>
+
             {/* Resonas.AI */}
             <Card className="bg-[#1F1F1F] border-[#F14E4E]/30 hover:border-[#F14E4E]/50 transition-colors">
               <CardHeader>
