@@ -20,6 +20,14 @@ import {
   Building,
   Heart,
 } from "lucide-react"
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 
 export default function HomePage() {
   return (
@@ -350,13 +358,37 @@ export default function HomePage() {
             </h2>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <Card className="bg-[#1F1F1F] border-[#93C9E9]/30 hover:border-[#93C9E9]/50 transition-colors cursor-pointer">
-                <CardContent className="p-6 text-center">
-                  <MessageCircle className="h-8 w-8 text-[#93C9E9] mx-auto mb-3" />
-                  <h3 className="text-white font-semibold mb-2">WeChat</h3>
-                  <p className="text-gray-400 text-sm">QR Code Available</p>
-                </CardContent>
-              </Card>
+            <Dialog>
+                <DialogTrigger asChild>
+                  <Card className="bg-[#1F1F1F] border-[#93C9E9]/30 hover:border-[#93C9E9]/50 transition-colors cursor-pointer">
+                    <CardContent className="p-6 text-center">
+                      <MessageCircle className="h-8 w-8 text-[#93C9E9] mx-auto mb-3" />
+                      <h3 className="text-white font-semibold mb-2">WeChat</h3>
+                      <p className="text-gray-400 text-sm">Click to view QR Code</p>
+                    </CardContent>
+                  </Card>
+                </DialogTrigger>
+                <DialogContent className="bg-[#1F1F1F] border-[#93C9E9]/30 max-w-md">
+                  <DialogHeader>
+                    <DialogTitle className="text-white text-center">Connect on WeChat</DialogTitle>
+                    <DialogDescription className="text-gray-400 text-center">
+                      Scan the QR code below to add Fiona as a friend on WeChat
+                    </DialogDescription>
+                  </DialogHeader>
+                  <div className="flex flex-col items-center space-y-4 p-4">
+                    <div className="bg-white p-4 rounded-lg">
+                      <img
+                        src="/images/wechat-qr.jpg"
+                        alt="Fiona's WeChat QR Code"
+                        className="w-full max-w-xs mx-auto"
+                      />
+                    </div>
+                    <p className="text-gray-300 text-sm text-center">
+                      Open WeChat and use "Scan QR Code" to add me as a friend
+                    </p>
+                  </div>
+                </DialogContent>
+              </Dialog>
 
               <Card className="bg-[#1F1F1F] border-[#006C9A]/30 hover:border-[#006C9A]/50 transition-colors cursor-pointer">
                 <CardContent className="p-6 text-center">
