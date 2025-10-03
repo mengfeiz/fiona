@@ -212,15 +212,15 @@ export default function HomePage() {
             </Card>
 
             {/* CapMate */}
-            <Card className="bg-[#1F1F1F] border-[#93C9E9]/30 hover:border-[#93C9E9]/50 transition-colors">
+            <Card className="bg-[#1F1F1F] border-[#FF6B6B]/30 hover:border-[#FF6B6B]/50 transition-colors">
               <CardHeader>
                 <div className="flex items-center gap-3">
-                  <div className="p-2 bg-[#93C9E9]/20 rounded-lg">
-                    <TrendingUp className="h-6 w-6 text-[#93C9E9]" />
+                  <div className="p-2 bg-[#FF6B6B]/20 rounded-lg">
+                    <TrendingUp className="h-6 w-6 text-[#FF6B6B]" />
                   </div>
                   <div>
                     <a href="https://capmate.pro" target="_blank" rel="noopener noreferrer" className="block">
-                      <CardTitle className="text-white text-2xl hover:text-[#93C9E9] transition-colors">CapMate 🚀</CardTitle>
+                      <CardTitle className="text-white text-2xl hover:text-[#FF6B6B] transition-colors">CapMate 🚀</CardTitle>
                       <CardDescription className="text-gray-400">
                         Your CMB for founder & investor
                       </CardDescription>
@@ -235,12 +235,12 @@ export default function HomePage() {
                   to build the future together.
                 </p>
                 <div className="flex gap-2">
-                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">
+                  <Badge className="bg-[#FF6B6B]/20 text-[#FF6B6B]">
                     <TrendingUp className="mr-1 h-3 w-3" />
                     Matchmaking
                   </Badge>
-                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">Founder-Investor</Badge>
-                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">Networking</Badge>
+                  <Badge className="bg-[#FF6B6B]/20 text-[#FF6B6B]">Founder-Investor</Badge>
+                  <Badge className="bg-[#FF6B6B]/20 text-[#FF6B6B]">Networking</Badge>
                 </div>
               </CardContent>
             </Card>
