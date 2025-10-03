@@ -57,7 +57,7 @@ export default function HomePage() {
               </Badge>
             </div>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Cofounder of Bay Area Innovest North America | Founder of Visionlist Commons | CEO of Resonas.AI |
+              Cofounder of Bay Area Innovest North America | Founder of Visionlist Commons | CEO of CapMate |
               Ex-Microsoft
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -103,7 +103,7 @@ export default function HomePage() {
               <div className="order-1 lg:order-2">
                 <div className="prose prose-lg prose-invert max-w-none">
                   <p className="text-gray-300 leading-relaxed mb-6">
-                    Fiona Zhang is a globally oriented entrepreneur, investor, and youth advocate committed to fostering cross-border innovation. She is the Cofounder of Bay Area Innovest North America and the Founder of Visionlist Commons, a U.S.-based 501(c)(3) nonprofit that supports Gen Z founders worldwide. Through these platforms, Fiona incubates ventures at the intersection of artificial intelligence, mentorship, digital commerce, and cross-cultural collaboration.
+                    Fiona Zhang is a globally oriented entrepreneur, investor, and youth advocate committed to fostering cross-border innovation. She is the CEO of CapMate, a founder-investor matchmaking platform, the Cofounder of Bay Area Innovest North America, and the Founder of Visionlist Commons, a U.S.-based 501(c)(3) nonprofit that supports Gen Z founders worldwide. Through these platforms, Fiona incubates ventures at the intersection of artificial intelligence, mentorship, digital commerce, and cross-cultural collaboration.
                   </p>
                   <p className="text-gray-300 leading-relaxed mb-8">
                     Her tech journey began at Microsoft, and she has since been recognized as an AACYF U25 Leader and an APEA Young Leader. Today, Fiona continues to champion the next generation of innovators across Silicon Valley and Asia by advancing entrepreneurship, education, and equitable access to capital.
@@ -141,18 +141,16 @@ export default function HomePage() {
 
           <div className="grid gap-8 max-w-6xl mx-auto">
             
-
-
             {/* Bay Area Innovest */}
-            <Card className="bg-[#1F1F1F] border-[#006C9A]/30 hover:border-[#006C9A]/50 transition-colors">
+            <Card className="bg-[#1F1F1F] border-[#F14E4E]/30 hover:border-[#F14E4E]/50 transition-colors">
               <CardHeader>
                 <div className="flex items-center gap-3">
-                  <div className="p-2 bg-[#006C9A]/20 rounded-lg">
-                    <Briefcase className="h-6 w-6 text-[#006C9A]" />
+                  <div className="p-2 bg-[#F14E4E]/20 rounded-lg">
+                    <Briefcase className="h-6 w-6 text-[#F14E4E]" />
                   </div>
                   <div>
                     <a href="https://www.bayareainnovest.com/" target="_blank" rel="noopener noreferrer" className="block">
-                      <CardTitle className="text-white text-2xl hover:text-[#006C9A] transition-colors">Bay Area Innovest (BAI) 💼</CardTitle>
+                      <CardTitle className="text-white text-2xl hover:text-[#F14E4E] transition-colors">Bay Area Innovest (BAI) 💼</CardTitle>
                       <CardDescription className="text-gray-400">
                         Global platform for tech innovation and investment
                       </CardDescription>
@@ -167,26 +165,26 @@ export default function HomePage() {
                   across AI, consumer products, healthtech, and global commerce.
                 </p>
                 <div className="flex gap-2">
-                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">
+                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">
                     <TrendingUp className="mr-1 h-3 w-3" />
                     Investment
                   </Badge>
-                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">Incubation</Badge>
-                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">Cross-border</Badge>
+                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">Incubation</Badge>
+                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">Cross-border</Badge>
                 </div>
               </CardContent>
             </Card>
 
             {/* Visionlist Commons */}
-            <Card className="bg-[#1F1F1F] border-[#93C9E9]/30 hover:border-[#93C9E9]/50 transition-colors">
+            <Card className="bg-[#1F1F1F] border-[#006C9A]/30 hover:border-[#006C9A]/50 transition-colors">
               <CardHeader>
                 <div className="flex items-center gap-3">
-                  <div className="p-2 bg-[#93C9E9]/20 rounded-lg">
-                    <Globe className="h-6 w-6 text-[#93C9E9]" />
+                  <div className="p-2 bg-[#006C9A]/20 rounded-lg">
+                    <Globe className="h-6 w-6 text-[#006C9A]" />
                   </div>
                   <div>
                     <a href="https://www.visionlistcommons.org/" target="_blank" rel="noopener noreferrer" className="block">
-                      <CardTitle className="text-white text-2xl hover:text-[#93C9E9] transition-colors">Visionlist Commons 🌍</CardTitle>
+                      <CardTitle className="text-white text-2xl hover:text-[#006C9A] transition-colors">Visionlist Commons 🌍</CardTitle>
                       <CardDescription className="text-gray-400">
                         501(c)(3) nonprofit supporting Gen Z founders
                       </CardDescription>
@@ -200,31 +198,31 @@ export default function HomePage() {
                   Backed by 100+ VC communities and university innovation clubs worldwide.
                 </p>
                 <div className="flex gap-2">
-                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">
+                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">
                     <Heart className="mr-1 h-3 w-3" />
                     Nonprofit
                   </Badge>
-                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">
+                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">
                     <Users className="mr-1 h-3 w-3" />
                     Gen Z Support
                   </Badge>
-                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">Global</Badge>
+                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">Global</Badge>
                 </div>
               </CardContent>
             </Card>
 
-            {/* Resonas.AI */}
-            <Card className="bg-[#1F1F1F] border-[#F14E4E]/30 hover:border-[#F14E4E]/50 transition-colors">
+            {/* CapMate */}
+            <Card className="bg-[#1F1F1F] border-[#93C9E9]/30 hover:border-[#93C9E9]/50 transition-colors">
               <CardHeader>
                 <div className="flex items-center gap-3">
-                  <div className="p-2 bg-[#F14E4E]/20 rounded-lg">
-                    <Brain className="h-6 w-6 text-[#F14E4E]" />
+                  <div className="p-2 bg-[#93C9E9]/20 rounded-lg">
+                    <TrendingUp className="h-6 w-6 text-[#93C9E9]" />
                   </div>
                   <div>
-                    <a href="https://www.resonas.com/" target="_blank" rel="noopener noreferrer" className="block">
-                      <CardTitle className="text-white text-2xl hover:text-[#F14E4E] transition-colors">Resonas.AI 🧠</CardTitle>
+                    <a href="https://capmate.pro" target="_blank" rel="noopener noreferrer" className="block">
+                      <CardTitle className="text-white text-2xl hover:text-[#93C9E9] transition-colors">CapMate 🚀</CardTitle>
                       <CardDescription className="text-gray-400">
-                        AI-native mentorship and avatar platform
+                        Your CMB for founder & investor
                       </CardDescription>
                     </a>
                   </div>
@@ -232,13 +230,17 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-300 mb-4">
-                  An AI-native mentorship and avatar platform. Helping mentees access verified, high-impact mentorship
-                  anytime, anywhere.
+                  CapMate is your CMB (Chief Matchmaking Business) for founder & investor connections. 
+                  Swipe right to your next unicorn - connecting innovative founders with visionary investors 
+                  to build the future together.
                 </p>
                 <div className="flex gap-2">
-                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">AI Mentorship</Badge>
-                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">Avatars</Badge>
-                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">Education</Badge>
+                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">
+                    <TrendingUp className="mr-1 h-3 w-3" />
+                    Matchmaking
+                  </Badge>
+                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">Founder-Investor</Badge>
+                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">Networking</Badge>
                 </div>
               </CardContent>
             </Card>
