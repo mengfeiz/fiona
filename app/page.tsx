@@ -103,7 +103,7 @@ export default function HomePage() {
               <div className="order-1 lg:order-2">
                 <div className="prose prose-lg prose-invert max-w-none">
                   <p className="text-gray-300 leading-relaxed mb-6">
-                    Fiona Zhang is a globally oriented entrepreneur, investor, and youth advocate committed to fostering cross-border innovation. She is the CEO of CapMate, a founder-investor matchmaking platform, the Cofounder of Bay Area Innovest North America, and the Founder of Visionlist Commons, a U.S.-based 501(c)(3) nonprofit that supports Gen Z founders worldwide. Through these platforms, Fiona incubates ventures at the intersection of artificial intelligence, mentorship, digital commerce, and cross-cultural collaboration.
+                  Fiona Zhang is a globally oriented entrepreneur, investor, and youth advocate committed to fostering cross-border innovation. She is the cofounder of Bay Area Innovest North America, and the founder of Visionlist Commons, a U.S.-based 501(c)(3) nonprofit that supports Gen Z founders worldwide, and the CEO of CapMate, a founder-investor matchmaking platform. Through these platforms, Fiona incubates ventures at the intersection of artificial intelligence, mentorship, digital commerce, and cross-cultural collaboration.
                   </p>
                   <p className="text-gray-300 leading-relaxed mb-8">
                     Her tech journey began at Microsoft, and she has since been recognized as an AACYF U25 Leader and an APEA Young Leader. Today, Fiona continues to champion the next generation of innovators across Silicon Valley and Asia by advancing entrepreneurship, education, and equitable access to capital.
