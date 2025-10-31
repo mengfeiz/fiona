@@ -286,6 +286,122 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Selected Investments */}
+      <section className="py-20 bg-[#1F1F1F]/50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">
+            Selected <span className="text-[#F14E4E]">Investments</span>
+          </h2>
+
+          <div className="grid gap-8 max-w-6xl mx-auto">
+            {/* Cutting Edge Superconductors */}
+            <Card className="bg-[#1F1F1F] border-[#F14E4E]/30 hover:border-[#F14E4E]/50 transition-colors">
+              <CardHeader>
+                <div className="flex items-center gap-3">
+                  <div className="p-2 bg-[#F14E4E]/20 rounded-lg">
+                    <Zap className="h-6 w-6 text-[#F14E4E]" />
+                  </div>
+                  <div>
+                    <a href="https://www.ceswire.com/index.html" target="_blank" rel="noopener noreferrer" className="block">
+                      <CardTitle className="text-white text-2xl hover:text-[#F14E4E] transition-colors">Cutting Edge Superconductors (CES)</CardTitle>
+                      <CardDescription className="text-gray-400">
+                        Sector: Advanced Materials · Deep Tech | Headquarters: Puerto Rico, USA
+                      </CardDescription>
+                    </a>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-300 mb-4">
+                  Cutting Edge Superconductors is pioneering the development of CES-2023, a room-temperature, ambient-pressure superconductor — often called the "Holy Grail of Superconductors." This breakthrough has the potential to transform over $5 trillion worth of industries, from energy transmission and quantum computing to transportation and medical imaging.
+                </p>
+                <p className="text-gray-300 mb-4">
+                  CES partners with Samsung, GE Global Research, Vitec², Luvata, the Puerto Rico Science, Technology & Research Trust, and the Puerto Rico Department of Economic Development and Commerce, establishing itself as a front-runner in superconducting technology innovation.
+                </p>
+                <div className="flex gap-2 mb-2">
+                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">
+                    <TrendingUp className="mr-1 h-3 w-3" />
+                    Early-stage Private
+                  </Badge>
+                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">Advanced Materials</Badge>
+                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">Deep Tech</Badge>
+                </div>
+                <p className="text-sm text-gray-400 italic">
+                  Investment Focus: Early-stage private company developing next-generation superconducting materials and wire systems with global industrial applications.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Web3 Portfolio */}
+            <Card className="bg-[#1F1F1F] border-[#006C9A]/30 hover:border-[#006C9A]/50 transition-colors">
+              <CardHeader>
+                <div className="flex items-center gap-3">
+                  <div className="p-2 bg-[#006C9A]/20 rounded-lg">
+                    <Globe className="h-6 w-6 text-[#006C9A]" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-white text-2xl">Web3 Portfolio (2023 Cohort)</CardTitle>
+                    <CardDescription className="text-gray-400">
+                      Sector: Blockchain · Digital Assets
+                    </CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-300 mb-4">
+                  A diversified portfolio across leading Web3 infrastructure and application-layer projects, achieving a 25% return. The strategy prioritized long-term network adoption, protocol utility, and sustainable tokenomics over short-term volatility.
+                </p>
+                <div className="flex gap-2 mb-2">
+                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">
+                    <TrendingUp className="mr-1 h-3 w-3" />
+                    25% Return
+                  </Badge>
+                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">Blockchain</Badge>
+                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">Digital Assets</Badge>
+                </div>
+                <p className="text-sm text-gray-400 italic">
+                  Investment Focus: Strategic exposure to decentralized technologies enabling the next evolution of digital identity, finance, and ownership.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Secondary Market Portfolio */}
+            <Card className="bg-[#1F1F1F] border-[#93C9E9]/30 hover:border-[#93C9E9]/50 transition-colors">
+              <CardHeader>
+                <div className="flex items-center gap-3">
+                  <div className="p-2 bg-[#93C9E9]/20 rounded-lg">
+                    <TrendingUp className="h-6 w-6 text-[#93C9E9]" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-white text-2xl">Secondary Market Portfolio (2025 YTD)</CardTitle>
+                    <CardDescription className="text-gray-400">
+                      Sector: Public Equities · Digital Assets · Derivatives | ROI: ≈ 38.3% YTD
+                    </CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-300 mb-4">
+                  Active portfolio including Microsoft, Tesla, Apple, Micron (MU), Nvidia, TQQQ, Fraddy Futures, and select stablecoin and Bitcoin positions. Through disciplined allocation and timely exits across tech-heavy tickers, the portfolio achieved an estimated 38.3% year-to-date ROI in 2025.
+                </p>
+                <div className="flex gap-2 mb-2">
+                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">
+                    <TrendingUp className="mr-1 h-3 w-3" />
+                    38.3% ROI YTD
+                  </Badge>
+                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">Public Equities</Badge>
+                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">Digital Assets</Badge>
+                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">Derivatives</Badge>
+                </div>
+                <p className="text-sm text-gray-400 italic">
+                  Investment Focus: Opportunistic exposure to high-growth technology equities and digital assets, balancing innovation-driven upside with tactical risk management.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Speaking & Events */}
       <section className="py-20 bg-[#1F1F1F]/50">
         <div className="container mx-auto px-4">
