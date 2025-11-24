@@ -211,6 +211,40 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
+            {/* Real Value Capital (RVC) */}
+            <Card className="bg-[#1F1F1F] border-[#F14E4E]/30 hover:border-[#F14E4E]/50 transition-colors">
+              <CardHeader>
+                <div className="flex items-center gap-3">
+                  <div className="p-2 bg-[#F14E4E]/20 rounded-lg">
+                    <Building className="h-6 w-6 text-[#F14E4E]" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-white text-2xl">Real Value Capital (RVC) 💰</CardTitle>
+                    <CardDescription className="text-gray-400">
+                      AI-driven capital markets advisory firm
+                    </CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-300 mb-4">
+                  Real Value Capital (RVC) is an AI-driven capital markets advisory firm with a global footprint across Los Angeles, New York, Boston, and Hong Kong. RVC specializes in full-cycle IPO services, AI-enhanced capital solutions, and global investor communications, helping high-growth companies enter the public markets and achieve sustained valuation growth.
+                </p>
+                <p className="text-gray-300 mb-4">
+                  With a leadership team of Wall Street veterans, former SEC officials, and NYSE/Nasdaq executives, RVC has led 30+ successful IPOs with over USD 3B in assets under management. The firm maintains a 100% IPO approval success rate through its AI-optimized SEC compliance system and success-based fee structure.
+                </p>
+                <div className="flex gap-2 flex-wrap">
+                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">
+                    <TrendingUp className="mr-1 h-3 w-3" />
+                    IPO Services
+                  </Badge>
+                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">AI-Enhanced</Badge>
+                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">Capital Markets</Badge>
+                  <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">Global</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
             {/* CapMate */}
             <Card className="bg-[#1F1F1F] border-[#FF6B6B]/30 hover:border-[#FF6B6B]/50 transition-colors">
               <CardHeader>
