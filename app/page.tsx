@@ -366,39 +366,6 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            {/* Web3 Portfolio */}
-            <Card className="bg-[#1F1F1F] border-[#006C9A]/30 hover:border-[#006C9A]/50 transition-colors">
-              <CardHeader>
-                <div className="flex items-center gap-3">
-                  <div className="p-2 bg-[#006C9A]/20 rounded-lg">
-                    <Globe className="h-6 w-6 text-[#006C9A]" />
-                  </div>
-                  <div>
-                    <CardTitle className="text-white text-2xl">Web3 Portfolio (2023 Cohort)</CardTitle>
-                    <CardDescription className="text-gray-400">
-                      Sector: Blockchain · Digital Assets
-                    </CardDescription>
-                  </div>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-300 mb-4">
-                  A diversified portfolio across leading Web3 infrastructure and application-layer projects, achieving a 25% return. The strategy prioritized long-term network adoption, protocol utility, and sustainable tokenomics over short-term volatility.
-                </p>
-                <div className="flex gap-2 mb-2">
-                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">
-                    <TrendingUp className="mr-1 h-3 w-3" />
-                    25% Return
-                  </Badge>
-                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">Blockchain</Badge>
-                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">Digital Assets</Badge>
-                </div>
-                <p className="text-sm text-gray-400 italic">
-                  Investment Focus: Strategic exposure to decentralized technologies enabling the next evolution of digital identity, finance, and ownership.
-                </p>
-              </CardContent>
-            </Card>
-
             {/* Secondary Market Portfolio */}
             <Card className="bg-[#1F1F1F] border-[#93C9E9]/30 hover:border-[#93C9E9]/50 transition-colors">
               <CardHeader>
