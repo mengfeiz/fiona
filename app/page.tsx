@@ -19,6 +19,7 @@ import {
   TrendingUp,
   Building,
   Heart,
+  Book,
 } from "lucide-react"
 import {
   Dialog,
@@ -55,9 +56,12 @@ export default function HomePage() {
               <Badge variant="outline" className="border-[#93C9E9] text-[#93C9E9] bg-[#93C9E9]/10">
                 Youth Advocate
               </Badge>
+              <Badge variant="outline" className="border-[#F14E4E] text-[#F14E4E] bg-[#F14E4E]/10">
+                Book Author
+              </Badge>
             </div>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Cofounder of Bay Area Innovest North America | Founder of Visionlist Commons | CEO of CapMate |
+              Author of The Edge and the Clouds | Cofounder of Bay Area Innovest North America | Founder of Visionlist Commons | CEO of CapMate |
               Ex-Microsoft
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -103,7 +107,7 @@ export default function HomePage() {
               <div className="order-1 lg:order-2">
                 <div className="prose prose-lg prose-invert max-w-none">
                   <p className="text-gray-300 leading-relaxed mb-6">
-                  Fiona Zhang is a globally oriented entrepreneur, investor, and youth advocate committed to fostering cross-border innovation. She is the cofounder of Bay Area Innovest North America, and the founder of Visionlist Commons, a U.S.-based 501(c)(3) nonprofit that supports Gen Z founders worldwide, and the CEO of CapMate, a founder-investor matchmaking platform. Through these platforms, Fiona incubates ventures at the intersection of artificial intelligence, mentorship, digital commerce, and cross-cultural collaboration.
+                    Fiona Zhang is a globally oriented entrepreneur, investor, and youth advocate committed to fostering cross-border innovation. She is the cofounder of Bay Area Innovest North America, and the founder of Visionlist Commons, a U.S.-based 501(c)(3) nonprofit that supports Gen Z founders worldwide, and the CEO of CapMate, a founder-investor matchmaking platform. Through these platforms, Fiona incubates ventures at the intersection of artificial intelligence, mentorship, digital commerce, and cross-cultural collaboration.
                   </p>
                   <p className="text-gray-300 leading-relaxed mb-8">
                     Her tech journey began at Microsoft, and she has since been recognized as an AACYF U25 Leader and an APEA Young Leader. Today, Fiona continues to champion the next generation of innovators across Silicon Valley and Asia by advancing entrepreneurship, education, and equitable access to capital.
@@ -140,7 +144,7 @@ export default function HomePage() {
           </h2>
 
           <div className="grid gap-8 max-w-6xl mx-auto">
-            
+
             {/* Bay Area Innovest */}
             <Card className="bg-[#1F1F1F] border-[#F14E4E]/30 hover:border-[#F14E4E]/50 transition-colors">
               <CardHeader>
@@ -264,8 +268,8 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-300 mb-4">
-                  CapMate is your CMB (Chief Matchmaking Business) for founder & investor connections. 
-                  Swipe right to your next unicorn - connecting innovative founders with visionary investors 
+                  CapMate is your CMB (Chief Matchmaking Business) for founder & investor connections.
+                  Swipe right to your next unicorn - connecting innovative founders with visionary investors
                   to build the future together.
                 </p>
                 <div className="flex gap-2">
@@ -279,40 +283,40 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            {/* FMAE School */}
-            <Card className="bg-[#1F1F1F] border-[#93C9E9]/30 hover:border-[#93C9E9]/50 transition-colors">
+            {/* The Edge and the Clouds */}
+            <Card className="bg-[#1F1F1F] border-[#006C9A]/30 hover:border-[#006C9A]/50 transition-colors">
               <CardHeader>
                 <div className="flex items-center gap-3">
-                  <div className="p-2 bg-[#93C9E9]/20 rounded-lg">
-                    <GraduationCap className="h-6 w-6 text-[#93C9E9]" />
+                  <div className="p-2 bg-[#006C9A]/20 rounded-lg">
+                    <Book className="h-6 w-6 text-[#006C9A]" />
                   </div>
                   <div>
-                    <CardTitle className="text-white text-2xl">FMAE School 🎓</CardTitle>
+                    <CardTitle className="text-white text-2xl">The Edge and the Clouds 📚</CardTitle>
                     <CardDescription className="text-gray-400">
-                      Global AI + Business Master's Degree (3 Years)
+                      Author: Fiona Zhang
                     </CardDescription>
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-300 mb-4 font-medium">
-                  Where elite education meets entrepreneurial acceleration
+                <p className="text-gray-300 mb-4">
+                  <em>Notes on Business, Humanity, and Becoming</em> — A quiet, unflinching exploration of what it means to build, to strive, and to remain human in an age defined by speed, capital, and constant change. Moving between the outer world of business and the inner world of becoming, this book examines not only how systems work, but how people endure within them. Written with both precision and tenderness, it offers companionship rather than formulas—an acknowledgment that behind every venture and ambition, there is a human being learning how to live with clarity and restraint, courage and softness.
                 </p>
-                <div className="space-y-2 mb-4">
-                  <h4 className="text-[#93C9E9] font-semibold">Program Highlights:</h4>
-                  <ul className="text-gray-300 space-y-1 text-sm">
-                    <li>🎓 3-year U.S. master's degree with dual track: AI + Digital Business or Education Psychology</li>
-                    <li>📚 Accredited by the U.S. Department of Education and SEVP; includes F-1 visa and legal U.S. residency for up to 3 years</li>
-                    <li>💼 Includes CPT/OPT work authorization—average salary $50K+ during study</li>
-                    <li>🌐 Joint delivery across California and online; monthly start dates, flexible for international students</li>
-                    <li>🧑‍🏫 Open to college diploma holders; includes optional Montessori + California Early Childhood Teaching Credentials</li>
-                    <li>💰 Cost-effective tuition ranging from $14K–$23K depending on the program</li>
-                  </ul>
-                </div>
-                <div className="flex gap-2">
-                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">Education</Badge>
-                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">AI Curriculum</Badge>
-                  <Badge className="bg-[#93C9E9]/20 text-[#93C9E9]">Global</Badge>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Button className="bg-[#006C9A] hover:bg-[#006C9A]/80 text-white" asChild>
+                    <a href="https://www.amazon.com/dp/B0GJDQ36F3" target="_blank" rel="noopener noreferrer">
+                      <Book className="mr-2 h-4 w-4" />
+                      Buy on Amazon
+                      <ExternalLink className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
+                  <Button variant="outline" className="border-[#006C9A] text-[#006C9A] hover:bg-[#006C9A]/10" asChild>
+                    <a href="https://shop.ingramspark.com/b/084?params=Ev1wefpjdxXioq1O40NFddApX5ZkEkgqkamhuaXwh9l" target="_blank" rel="noopener noreferrer">
+                      <Book className="mr-2 h-4 w-4" />
+                      Chinese Version
+                      <ExternalLink className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
                 </div>
               </CardContent>
             </Card>
@@ -477,7 +481,7 @@ export default function HomePage() {
             </h2>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Dialog>
+              <Dialog>
                 <DialogTrigger asChild>
                   <Card className="bg-[#1F1F1F] border-[#93C9E9]/30 hover:border-[#93C9E9]/50 transition-colors cursor-pointer">
                     <CardContent className="p-6 text-center">
