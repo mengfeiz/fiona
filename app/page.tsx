@@ -44,25 +44,25 @@ export default function HomePage() {
               </span>
             </h1>
             <p className="text-xl lg:text-2xl text-[#93C9E9] mb-4 font-medium">
-              Bridging AI, E-commerce, Education, and Global Innovation
+              Bridging Global Capital, AI, E-commerce, and Education.
             </p>
             <div className="flex flex-wrap justify-center gap-3 mb-8">
-              <Badge variant="outline" className="border-[#F14E4E] text-[#F14E4E] bg-[#F14E4E]/10">
-                Entrepreneur
-              </Badge>
               <Badge variant="outline" className="border-[#006C9A] text-[#006C9A] bg-[#006C9A]/10">
                 Investor
               </Badge>
-              <Badge variant="outline" className="border-[#93C9E9] text-[#93C9E9] bg-[#93C9E9]/10">
-                Youth Advocate
-              </Badge>
               <Badge variant="outline" className="border-[#F14E4E] text-[#F14E4E] bg-[#F14E4E]/10">
-                Book Author
+                Entrepreneur
+              </Badge>
+              <Badge variant="outline" className="border-[#93C9E9] text-[#93C9E9] bg-[#93C9E9]/10">
+                Author
+              </Badge>
+              <Badge variant="outline" className="border-[#FF6B6B] text-[#FF6B6B] bg-[#FF6B6B]/10">
+                Influencer
               </Badge>
             </div>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Author of The Edge and the Clouds | Cofounder of Bay Area Innovest North America | Founder of Visionlist Commons | CEO of CapMate |
-              Ex-Microsoft
+              Author of The Edge and the Clouds | Cofounder of Bay Area Innovest North America |
+              Founder of Visionlist Commons | Ex-Microsoft
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-gradient-to-r from-[#F14E4E] to-[#006C9A] hover:opacity-90 text-white" asChild>
