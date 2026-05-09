@@ -18,7 +18,6 @@ import {
   Users,
   TrendingUp,
   Building,
-  Heart,
   Book,
 } from "lucide-react"
 import {
@@ -61,8 +60,8 @@ export default function HomePage() {
               </Badge>
             </div>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Author of The Edge and the Clouds | Cofounder of Bay Area Innovest North America |
-              Founder of Visionlist Commons | Ex-Microsoft
+              Author of The Edge and the Clouds | Founder of Visionlist Commons |
+              Cofounder of Bay Area Innovest North America | CEO of Sparki AI| Ex-Microsoft
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-gradient-to-r from-[#F14E4E] to-[#006C9A] hover:opacity-90 text-white" asChild>
@@ -107,7 +106,7 @@ export default function HomePage() {
               <div className="order-1 lg:order-2">
                 <div className="prose prose-lg prose-invert max-w-none">
                   <p className="text-gray-300 leading-relaxed mb-6">
-                    Fiona Zhang is a globally oriented entrepreneur, investor, and youth advocate committed to fostering cross-border innovation. She is the cofounder of Bay Area Innovest North America, and the founder of Visionlist Commons, a U.S.-based 501(c)(3) nonprofit that supports Gen Z founders worldwide, and the CEO of CapMate, a founder-investor matchmaking platform. Through these platforms, Fiona incubates ventures at the intersection of artificial intelligence, mentorship, digital commerce, and cross-cultural collaboration.
+                    Fiona Zhang is a globally oriented entrepreneur, investor, and youth advocate committed to fostering cross-border innovation. She is the founder of Visionlist Commons, a consulting firm serving founders and the venture ecosystem, the cofounder of Bay Area Innovest North America, and the CEO of Sparki AI at The X Claw — a plug-in AI appliance that brings private, local LLM deployment to teams without cloud dependence or DIY infrastructure. Through these platforms, Fiona incubates ventures at the intersection of artificial intelligence, mentorship, digital commerce, and cross-cultural collaboration.
                   </p>
                   <p className="text-gray-300 leading-relaxed mb-8">
                     Her tech journey began at Microsoft, and she has since been recognized as an AACYF U25 Leader and an APEA Young Leader. Today, Fiona continues to champion the next generation of innovators across Silicon Valley and Asia by advancing entrepreneurship, education, and equitable access to capital.
@@ -145,6 +144,42 @@ export default function HomePage() {
 
           <div className="grid gap-8 max-w-6xl mx-auto">
 
+            {/* Visionlist Commons */}
+            <Card className="bg-[#1F1F1F] border-[#006C9A]/30 hover:border-[#006C9A]/50 transition-colors">
+              <CardHeader>
+                <div className="flex items-center gap-3">
+                  <div className="p-2 bg-[#006C9A]/20 rounded-lg">
+                    <Globe className="h-6 w-6 text-[#006C9A]" />
+                  </div>
+                  <div>
+                    <a href="https://www.visionlistcommons.org/" target="_blank" rel="noopener noreferrer" className="block">
+                      <CardTitle className="text-white text-2xl hover:text-[#006C9A] transition-colors">Visionlist Commons 🌍</CardTitle>
+                      <CardDescription className="text-gray-400">
+                        Consulting firm · Venture & startup ecosystem
+                      </CardDescription>
+                    </a>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-300 mb-4">
+                  Visionlist Commons is a consulting firm that supports founders, investors, and the venture ecosystem through strategic advisory,
+                  grants, connections, and knowledge sharing — backed by 100+ VC communities and innovation partners worldwide.
+                </p>
+                <div className="flex gap-2 flex-wrap">
+                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">
+                    <Briefcase className="mr-1 h-3 w-3" />
+                    Consulting
+                  </Badge>
+                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">
+                    <Users className="mr-1 h-3 w-3" />
+                    Venture advisory
+                  </Badge>
+                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">Global</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
             {/* Bay Area Innovest */}
             <Card className="bg-[#1F1F1F] border-[#F14E4E]/30 hover:border-[#F14E4E]/50 transition-colors">
               <CardHeader>
@@ -175,42 +210,6 @@ export default function HomePage() {
                   </Badge>
                   <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">Incubation</Badge>
                   <Badge className="bg-[#F14E4E]/20 text-[#F14E4E]">Cross-border</Badge>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Visionlist Commons */}
-            <Card className="bg-[#1F1F1F] border-[#006C9A]/30 hover:border-[#006C9A]/50 transition-colors">
-              <CardHeader>
-                <div className="flex items-center gap-3">
-                  <div className="p-2 bg-[#006C9A]/20 rounded-lg">
-                    <Globe className="h-6 w-6 text-[#006C9A]" />
-                  </div>
-                  <div>
-                    <a href="https://www.visionlistcommons.org/" target="_blank" rel="noopener noreferrer" className="block">
-                      <CardTitle className="text-white text-2xl hover:text-[#006C9A] transition-colors">Visionlist Commons 🌍</CardTitle>
-                      <CardDescription className="text-gray-400">
-                        501(c)(3) nonprofit supporting Gen Z founders
-                      </CardDescription>
-                    </a>
-                  </div>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-300 mb-4">
-                  A 501(c)(3) nonprofit supporting Gen Z founders through grants, connections, and knowledge sharing.
-                  Backed by 100+ VC communities and university innovation clubs worldwide.
-                </p>
-                <div className="flex gap-2">
-                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">
-                    <Heart className="mr-1 h-3 w-3" />
-                    Nonprofit
-                  </Badge>
-                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">
-                    <Users className="mr-1 h-3 w-3" />
-                    Gen Z Support
-                  </Badge>
-                  <Badge className="bg-[#006C9A]/20 text-[#006C9A]">Global</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -249,18 +248,18 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            {/* CapMate */}
+            {/* Sparki AI · The X Claw */}
             <Card className="bg-[#1F1F1F] border-[#FF6B6B]/30 hover:border-[#FF6B6B]/50 transition-colors">
               <CardHeader>
                 <div className="flex items-center gap-3">
                   <div className="p-2 bg-[#FF6B6B]/20 rounded-lg">
-                    <TrendingUp className="h-6 w-6 text-[#FF6B6B]" />
+                    <Brain className="h-6 w-6 text-[#FF6B6B]" />
                   </div>
                   <div>
-                    <a href="https://capmate.pro" target="_blank" rel="noopener noreferrer" className="block">
-                      <CardTitle className="text-white text-2xl hover:text-[#FF6B6B] transition-colors">CapMate 🚀</CardTitle>
+                    <a href="https://www.thexclaw.com/" target="_blank" rel="noopener noreferrer" className="block">
+                      <CardTitle className="text-white text-2xl hover:text-[#FF6B6B] transition-colors">Sparki AI ⚡</CardTitle>
                       <CardDescription className="text-gray-400">
-                        Your CMB for founder & investor
+                        Private local AI for teams & enterprises
                       </CardDescription>
                     </a>
                   </div>
@@ -268,17 +267,16 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-300 mb-4">
-                  CapMate is your CMB (Chief Matchmaking Business) for founder & investor connections.
-                  Swipe right to your next unicorn - connecting innovative founders with visionary investors
-                  to build the future together.
+                  Sparki is a plug-in AI appliance that runs 7B–70B models on your own network — deployed in minutes, no cloud by default,
+                  built for internal copilots, document workflows, and private-by-default team AI without turning self-hosted LLMs into an infrastructure project.
                 </p>
-                <div className="flex gap-2">
+                <div className="flex gap-2 flex-wrap">
                   <Badge className="bg-[#FF6B6B]/20 text-[#FF6B6B]">
-                    <TrendingUp className="mr-1 h-3 w-3" />
-                    Matchmaking
+                    <Brain className="mr-1 h-3 w-3" />
+                    Private AI
                   </Badge>
-                  <Badge className="bg-[#FF6B6B]/20 text-[#FF6B6B]">Founder-Investor</Badge>
-                  <Badge className="bg-[#FF6B6B]/20 text-[#FF6B6B]">Networking</Badge>
+                  <Badge className="bg-[#FF6B6B]/20 text-[#FF6B6B]">Local LLMs</Badge>
+                  <Badge className="bg-[#FF6B6B]/20 text-[#FF6B6B]">Team AI</Badge>
                 </div>
               </CardContent>
             </Card>
